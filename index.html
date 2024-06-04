@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menu</title>
+    <!-- Include Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <!-- Include your custom CSS file -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <!-- Navbar toggler for mobile view -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <!-- Navigation links -->
+        <div class="collapse navbar-collapse" id="navbarNav">    
+            <a href="#" class="nav-link">Restaurant Menu</a>
+
+            <!-- Search input -->
+            <input type="text" id="search-input" class="form-control col-7" placeholder="Search">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="#" class="nav-link" data-filter="all">All</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link" data-filter="starters">Starters</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link" data-filter="mains">Main Course</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link" data-filter="desserts">Desserts</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link" data-filter="beverages">Beverages</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Menu items -->
+    <div class="container">
+        <div class="row" id="menu-items">
+            <!-- Items will be inserted here by JavaScript -->
+        </div>
+    </div>
+
+    <!-- Include Bootstrap JS and your custom JS file -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
