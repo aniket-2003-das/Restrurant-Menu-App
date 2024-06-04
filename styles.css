@@ -1,0 +1,139 @@
+/* Global styles */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333745; /* Dark gray text color */
+    background-color: #EEF5DB; /* Light greenish background color */
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: #E63462; /* Reddish navbar background color */
+}
+
+.nav-link {
+    color: #FE5F55; /* Coral text color for navigation links */
+}
+
+/* Search input styles */
+#search-input {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 8px;
+    color: #333745; /* Dark gray text color */
+    background-color: #C7EFCF; /* Light green background color */
+    border: 1px solid #333745; /* Dark gray border color */
+    border-radius: 4px;
+}
+
+/* Menu item styles */
+.menu-item {
+    margin-bottom: 20px;
+    margin-right: 10px; /* 10px right margin for menu items */
+    background-color: #fff; /* White background color for menu items */
+    border: 1px solid #333745; /* Dark gray border color */
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+}
+
+.card-img-top {
+    height: 200px; /* Adjust as needed */
+    object-fit: cover;
+}
+
+/* Global styles */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333745; /* Dark gray text color */
+    background-color: #eef5db; /* Light greenish background color */
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: #e63462; /* Reddish navbar background color */
+}
+
+.nav-link {
+    color: #fe5f55; /* Coral text color for navigation links */
+}
+
+/* Search input styles */
+#search-input {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 8px;
+    color: #333745; /* Dark gray text color */
+    background-color: #c7efcf; /* Light green background color */
+    border: 1px solid #333745; /* Dark gray border color */
+    border-radius: 4px;
+}
+
+/* Menu item styles */
+.menu-item {
+    margin-bottom: 20px;
+    margin-right: 10px; /* 10px right margin for menu items */
+    background-color: #fff; /* White background color for menu items */
+    border: 1px solid #333745; /* Dark gray border color */
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+}
+
+.card-img-top {
+    height: 200px; /* Adjust as needed */
+    object-fit: cover;
+}
+
+/* Responsive styles */
+@media (min-width: 576px) {
+    /* Medium view */
+    .navbar-toggler {
+        display: inline-block; /* Display the toggler for smaller screens */
+    }
+
+    .navbar-nav {
+        display: none; /* Initially hide navigation links for medium screens */
+    }
+
+    #search-input {
+        width: auto;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .menu-item {
+        max-width: calc(48% - 10px); /* Maximum 2 items in a row with margin */
+    }
+}
+
+@media (min-width: 768px) {
+    /* Desktop view */
+    .navbar-toggler {
+        display: none; /* Hide toggler for larger screens */
+    }
+
+    .navbar-nav {
+        display: flex; /* Display navigation links for larger screens */
+    }
+
+    .menu-item {
+        max-width: calc(32% - 10px); /* Maximum 3 items in a row with margin */
+    }
+}
+
+@media (max-width: 767px) {
+    /* Mobile view */
+    .navbar-toggler {
+        display: inline-block; /* Display the toggler for smaller screens */
+    }
+
+    .navbar-nav {
+        display: none; /* Initially hide navigation links for mobile screens */
+    }
+
+    .menu-item {
+        width: 100%; /* Maximum 1 item in a row for mobile screens */
+    }
+}
